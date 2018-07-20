@@ -21,6 +21,16 @@ int main()
     if (n_endptr == n_str || *n_endptr != '\0') { exit(EXIT_FAILURE); }
 
     // Write Your Code Here
+    const char *word[10] = 
+    {
+        "zero", "one", "two", "three", "four", "five", "six", "seven", "eight",               "nine"
+    };
+    
+    if(n > 9)
+      printf("Greater than 9\n");  
+    
+    else
+        printf("%s", word[n]);
 
     return 0;
 }
