@@ -1,6 +1,6 @@
-'''
-https://www.hackerrank.com/challenges/py-hello-world/problem
-'''
+#!/bin/python3
+#https://www.hackerrank.com/challenges/py-hello-world/problem
+
 
 def main():
     print("Hello, World!")
